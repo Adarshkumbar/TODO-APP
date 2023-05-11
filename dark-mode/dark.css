@@ -1,0 +1,55 @@
+.dark-mode{
+    background: black;
+    cursor: pointer;
+}
+.light-mode{
+    background: white;
+}
+.theme
+{
+    position: relative;
+    right: -130px;
+}
+
+.theme img{
+    margin: 0px 20px 2px 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.heading{
+    /* overflow-x: visible; */
+    left: 40px;
+    position: absolute;
+    font-size: 25px;
+    color: goldenrod;
+    padding: 0px;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+@media only screen and (min-width: 500px) {
+    .heading{
+       position: absolute;
+       left: 24%;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .heading{
+       position: absolute;
+       left: 30%;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .heading{
+       position: absolute;
+       left: 37%;
+    }
+  }
+
+  @media only screen and (min-width: 1400px) {
+    .heading{
+       position: absolute;
+       left: 40%;
+    }
+  }

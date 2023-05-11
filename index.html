@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/icons8-a-key-64.png" type="image/x-icon">
+    <link rel="manifest" href="./webmanifest/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="dark-mode/dark.css">
+</head>
+
+<body>
+    <div class="heading">TODO</div>
+    <div class="theme" >
+        
+        <img src="./dark-mode/contrast.png" alt=""onclick="theme()">
+        <a href="https://github.com/Adarshkumbar" target="_blank"><img src="./dark-mode/github.png" alt=""></a>
+        <a href=""><img src="./dark-mode/about.png" alt=""></a>
+        
+    </div>
+    <div class="box">
+        <img src="./images/Checklist-Transparent-Images-PNG.png" alt="">
+        <input type="text" id="input-field" placeholder="Add items">
+        <button id="add-button">Add to Cart</button>
+
+        <ul id="todo-list">
+        </ul>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

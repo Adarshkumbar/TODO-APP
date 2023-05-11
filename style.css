@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Sigmar&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Sigmar', cursive;
+}
+/* .heading{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+} */
+body{
+    user-select: none;              /* cant select text or so */
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    /* margin-top: 1.1rem; */
+    width: 150px;
+    margin: 0 auto;
+
+}
+
+input{
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius:8px ;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: #dee8f8;
+}
+button {
+    color: #fdfdfd;
+    /* background-color: #AC485A; */
+    background-color: green;
+    border: 0;
+    padding: 15px;
+    border-radius:8px ;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+button:hover{
+    background-color: #006309;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+ul li{
+    font-size: 20px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    cursor:pointer;
+}
+
+ul li:hover{
+   background-color: #ffecc7;
+}
