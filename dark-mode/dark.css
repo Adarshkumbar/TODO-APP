@@ -1,12 +1,13 @@
 .dark-mode{
     background: black;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .light-mode{
     background: white;
 }
 .theme
 {
+  
     position: relative;
     right: -130px;
 }
@@ -15,6 +16,8 @@
     margin: 0px 20px 2px 5px;
     width: 40px;
     height: 40px;
+    background: rgb(247, 244, 244);
+    border-radius: 80%;
 }
 
 .heading{
