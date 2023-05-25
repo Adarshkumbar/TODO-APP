@@ -5,8 +5,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"  // this has FIREBASE DATABASE code we want for our app ....ref is for reference in FIREVASE and onValue for fetching data from FIREBASE
 
 const appSettings = {
-    databaseURL: ""   // got this from FIREBASE projects i.e Personal  but above 2 links are generic 
-}
+  databaseURL:
+    "https://playground-ec31b-default-rtdb.asia-southeast1.firebasedatabase.app", // got this from FIREBASE projects i.e Personal  but above 2 links are generic
+};
 
 const app = initializeApp(appSettings)              // connect our app to FIREBASE
 
@@ -88,7 +89,10 @@ function appendItemToList(input) {
     //  //    OR  ul.innerHTML +=`<li> ${inputValue} </li>`
 }
 
-theme=()=>{
-    var btn=document.body;
-    btn.classList.toggle("./dark-mode/dark.css");
-}
+setTimeout(()=>{
+    alert("Double click on added item to Delete it")
+},10000)
+// theme=()=>{
+//     var btn=document.getElementById("d-mode")
+//     btn.classList.toggle("./dark-mode/dark.css");
+// }
